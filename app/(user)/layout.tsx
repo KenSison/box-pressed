@@ -5,9 +5,12 @@ import '../../styles/globals.css';
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html>
-      <Header />
-      <Navbar />
-      <body>{children}</body>
+      <body className='max-w-7xl mx-auto'>
+        <Header />
+        <Navbar />
+
+        {children}
+      </body>
     </html>
   );
 }
