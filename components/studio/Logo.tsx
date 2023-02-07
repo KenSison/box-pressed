@@ -1,7 +1,8 @@
 import Image from 'next/image';
+import { LogoProps } from 'sanity';
 
-function Logo(props: any) {
-  const { renderDefault, title } = props;
+function Logo(props: LogoProps) {
+  const { renderDefault } = props;
 
   return (
     <div className='flex items-center space-x-2'>
@@ -13,7 +14,7 @@ function Logo(props: any) {
         src='https://links.papareact.com/1m8'
         alt='logo'
       />
-      {renderDefault && <>{renderDefault(props)}</>}
+      {renderDefault(props)}
     </div>
   );
 }

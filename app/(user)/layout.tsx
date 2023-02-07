@@ -8,7 +8,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className='max-w-7xl mx-auto'>
         <Header />
         <Navbar />
-
         {children}
       </body>
     </html>

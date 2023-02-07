@@ -28,6 +28,11 @@ interface Category extends Base {
   description: string;
 }
 
+interface Image {
+  _type: 'image';
+  asset: Reference;
+}
+
 interface Reference {
   _ref: string;
   _type: 'reference';
@@ -51,11 +56,6 @@ interface Span {
   _type: 'span';
   marks: string[];
   text: string;
-}
-
-interface MainImage {
-  _type: 'image';
-  asset: Reference;
 }
 
 interface Title {

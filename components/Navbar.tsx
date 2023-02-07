@@ -11,22 +11,22 @@ export default function Navbar() {
             </Link>
           </li>
           <li className=''>
-            <Link href='/review' className='text-white hover:text-[#F09819]'>
+            <Link href='/article' className='text-white hover:text-[#F09819]'>
               ARTICLE
             </Link>
           </li>
           <li className=''>
-            <Link href='/review' className='text-white hover:text-[#F09819]'>
+            <Link href='/news' className='text-white hover:text-[#F09819]'>
               NEWS
             </Link>
           </li>
           <li className=''>
-            <Link href='/review' className='text-white hover:text-[#F09819]'>
+            <Link href='/about' className='text-white hover:text-[#F09819]'>
               ABOUT
             </Link>
           </li>
           <li className=''>
-            <Link href='/review' className='text-white hover:text-[#F09819]'>
+            <Link href='/contact' className='text-white hover:text-[#F09819]'>
               CONTACT
             </Link>
           </li>

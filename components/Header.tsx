@@ -1,6 +1,3 @@
-import Link from 'next/link';
-import Image from 'next/image';
-
 function Header() {
   return (
     <header className='flex items-center justify-center space-x-2 font-bold px-5 py-5'>

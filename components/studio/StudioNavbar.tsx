@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import { ArrowUturnLeftIcon } from '@heroicons/react/24/solid';
+import { NavbarProps } from 'sanity';
 
-function StudioNavbar(props: any) {
+function StudioNavbar(props: NavbarProps) {
   return (
     <div>
       <div className='flex items-center justify-between p-5'>

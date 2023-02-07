@@ -6,7 +6,7 @@ import PreviewBlogList from '../../components/PreviewBlogList';
 import { FC } from 'react';
 import BlogList from '../../components/BlogList';
 
-export const query = groq`
+const query = groq`
   *[_type=='post'] {
     ...,
     author->,
@@ -32,6 +32,6 @@ export default async function Home() {
     );
   }
 
-  const posts = await client.fetch(query);
+  const posts: Post[] = await client.fetch(query);
   return <BlogList posts={posts} />;
 }
