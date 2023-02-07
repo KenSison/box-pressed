@@ -2,23 +2,14 @@
 
 # dependencies
 /node_modules
-<<<<<<< HEAD
-=======
-/studio/node_modules
->>>>>>> origin/main
 /.pnp
 .pnp.js
 
 # testing
 /coverage
 
-# next.js
-/.next/
-/out/
-
 # production
-/build
-/studio/dist
+/dist
 
 # misc
 .DS_Store
@@ -31,8 +22,7 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # local env files
-.env*.local
-.env
+.env*
 
 # vercel
 .vercel
@@ -40,7 +30,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# Env files created by scripts for working locally
-.env
-studio/.env.development
